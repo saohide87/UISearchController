@@ -1,4 +1,4 @@
-# SearchController
+# SearchController Sample
 How to create searchController
 
  ### 簽署協定  

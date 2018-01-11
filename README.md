@@ -1,5 +1,5 @@
-# SearchController Sample
-How to create searchController
+# UISearchController Sample
+How to create UISearchController
 
  ### 簽署協定  
 ```

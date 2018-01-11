@@ -8,7 +8,7 @@ How to create UISearchController
 
     
     
-### 初始化 searchController
+### 初始化 UISearchController
 ```
         _searchController = [[UISearchController alloc] initWithSearchResultsController:nil];
         _searchController.searchResultsUpdater = self;
@@ -19,7 +19,7 @@ How to create UISearchController
         _searchController.searchBar.frame = CGRectMake(_searchController.searchBar.frame.origin.x,_searchController.searchBar.frame.origin.y, _searchController.searchBar.frame.size.width, 44.0);
 ```
 
-### 當 searchBar 有動作 會觸發這個方法
+### 當 UISearchBar 有動作 會觸發這個方法
 ```
     -(void)updateSearchResultsForSearchController:(UISearchController *)searchController
 ```

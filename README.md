@@ -2,10 +2,11 @@
 How to create searchController
 
  # 簽署協定  
- 
+```
+@interface ViewController ()<UITableViewDelegate,UITableViewDataSource,UISearchResultsUpdating,UISearchBarDelegate>
+```
 
-    
-    @interface ViewController ()<UITableViewDelegate,UITableViewDataSource,UISearchResultsUpdating,UISearchBarDelegate>
+    
     
 # 初始化 searchController
 
